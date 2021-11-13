@@ -1,17 +1,19 @@
-body{
- background-color: pink;
- font-family: 'Stylish', sans-serif;
+body {
+  background-color: pink;
+  font-family: 'Stylish', sans-serif;
 
 }
+
 .jumbotron {
-    color: hotpink;
-    background-image: url("https://images.everydayhealth.com/images/skin-beauty/healthy-hair-tips-from-the-salon-01-722x406.jpg?w=768");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    opacity: 0.55;
-  }
-  #navBackground {
-    background:tomato;
-  }
+  color: hotpink;
+  background-image: url("https://p0.pxfuel.com/preview/902/505/225/scissors-buy-scissors-buy-hairdressing-scissors.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  opacity: 0.55;
+}
+
+#navBackground {
+  background: tomato;
+}
