@@ -17,3 +17,7 @@ body {
 #navBackground {
   background: tomato;
 }
+.nav-link {
+  color:black
+  background-color: black;
+}
