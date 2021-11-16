@@ -14,10 +14,20 @@ body {
   opacity: 0.55;
 }
 
-#navBackground {
-  background: tomato;
+
+
+
+
+
+.display-4 {
+  padding-top: 100px;
+  text-align: center;
 }
-.nav-link {
-  color:black
-  background-color: black;
+
+.appointment {
+  justify-content: center;
+  display: flex;
+}
+.tagLine {
+  text-align: center;
 }
