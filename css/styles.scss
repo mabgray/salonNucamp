@@ -1,0 +1,73 @@
+
+$color-main:#DDD6D8;
+$color-bgJumbotron:#90777f;
+$color-links:#4974a5;
+$color-dkWhite:#DDD6D8;
+$color-white:#FEFEFF;
+
+
+
+
+
+body {
+    background-color:$color-main;
+    font-family: 'Stylish', sans-serif;
+  
+  }
+  
+  .jumbotron {
+  
+    color:$color-bgJumbotron;
+    background-image: url("https://p0.pxfuel.com/preview/902/505/225/scissors-buy-scissors-buy-hairdressing-scissors.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    opacity: 0.55;
+  }
+  
+  
+  
+  a {
+    color:$color-links;
+  }
+  
+  
+  .display-4 {
+    padding-top: 100px;
+    text-align: center;
+  }
+  
+  .appointment {
+    justify-content: center;
+    display: flex;
+  }
+  .tagLine {
+    text-align: center;
+    color:$color-dkWhite;
+  
+  }
+  
+  h1 {
+    color: $color-white;
+  }
+  
+  .navbar {
+    background-color:$color-bgJumbotron;
+  }
+  .maxImage {
+    max-width: 200px;
+  }
+  .map-responsive{
+    overflow:hidden;
+    padding-bottom:50%;
+    position:relative;
+    height:0;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}

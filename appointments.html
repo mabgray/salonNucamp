@@ -17,33 +17,43 @@
   <title>Document</title>
 </head>
 <body>
-    <nav class="navbar navbar-expand-sm navbar-dark sticky-top mb-5">
-        <div id="navBackground" class="container pt-5">
-            <a class="navbar-brand" href="index.html"><img
-                    src="https://as1.ftcdn.net/v2/jpg/01/67/08/52/500_F_167085203_lgTxOtkSKf68jL1YHXok146w0ThGwyKX.jpg"
-                    height="30" width="30" /></a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nucampNavbar">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="nucampNavbar">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fa fa-home fa-lg"></i> Home</a>
-                    </li>
-                    <li class="nav-item"><a class="nav-link" href="aboutus.html"><i class="fa fa-info fa-lg"></i>
-                            About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#"><i class="fa fa-list fa-lg"></i> Sites</a></li>
-                    <li class="nav-item active"><a class="nav-link" href="#"><i class="fa fa-address-card fa-lg"></i>
-                            Contact</a></li>
-                </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <img
+              src="https://scontent.fmkc1-1.fna.fbcdn.net/v/t1.18169-9/23722426_1529664690414951_8837518399777698387_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=MejGT9uppE8AX88_GkY&_nc_ht=scontent.fmkc1-1.fna&oh=bef3d0e9877f4e4024d95f825e2d374f&oe=61BBCAAF"
+              alt="..." height="36">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mcha-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active"  aria-current="page" href="#">Appointments</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+    
+            </ul>
+          </div>
         </div>
-    </nav>
-    <div class="container">
+      </nav>
+    <div class="container pt-5">
         <div class="row">
             <div class="col-md-6">
                 <div class="well-block">
                     <div class="well-title">
-                        <h2>Questions? Book an Appointment</h2>
+                        <h2>Book an Appointment</h2>
                     </div>
                     <form>
                         <!-- Form start -->
@@ -84,10 +94,11 @@
                                 <div class="form-group">
                                     <label class="control-label" for="appointmentfor">Appointment For</label>
                                     <select id="appointmentfor" name="appointmentfor" class="form-control">
-                                        <option value="Service#1">Service#1</option>
-                                        <option value="Service#2">Service#2</option>
-                                        <option value="Service#3">Service#3</option>
-                                        <option value="Service#4">Service#4</option>
+                                        <option value="Service#1">Select Service</option>
+                                        <option value="Service#1">Hair Cut</option>
+                                        <option value="Service#2">Up Do</option>
+                                        <option value="Service#3">Style</option>
+                                        <option value="Service#4">Color</option>
                                     </select>
                                 </div>
                             </div>

@@ -18,45 +18,114 @@
 </head>
 
 <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img
+          src="https://scontent.fmkc1-1.fna.fbcdn.net/v/t1.18169-9/23722426_1529664690414951_8837518399777698387_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=MejGT9uppE8AX88_GkY&_nc_ht=scontent.fmkc1-1.fna&oh=bef3d0e9877f4e4024d95f825e2d374f&oe=61BBCAAF"
+          alt="..." height="36">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mcha-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="appointments.html">Appointments</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="about.html">About</a>
+          </li>
 
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="app" class="modal fade" role="dialog">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Login</h3>
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+            </div>
+            <div class="modal-body">
+                <div class="container-fluid">
+                    <form>
+                      <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="control-label" for="name">Name</label>
+                                <input id="name" name="name" type="text" placeholder="Name" class="form-control input-md">
+                            </div>
+                        </div>
+                        <!-- Text input-->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="control-label" for="email">Email</label>
+                                <input id="email" name="email" type="text" placeholder="E-Mail" class="form-control input-md">
+                            </div>
+                        </div>
+                        <!-- Text input-->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="control-label" for="date">Preferred Date</label>
+                                <input id="date" name="date" type="text" placeholder="Preferred Date" class="form-control input-md">
+                            </div>
+                        </div>
+                        <!-- Select Basic -->
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label class="control-label" for="time">Preferred Time</label>
+                                <select id="time" name="time" class="form-control">
+                                    <option value="8:00 to 9:00">8:00 to 9:00</option>
+                                    <option value="9:00 to 10:00">9:00 to 10:00</option>
+                                    <option value="10:00 to 1:00">10:00 to 1:00</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Select Basic -->
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label class="control-label" for="appointmentfor">Appointment For</label>
+                                <select id="appointmentfor" name="appointmentfor" class="form-control">
+                                    <option value="Service#1">Select Service</option>
+                                    <option value="Service#1">Hair Cut</option>
+                                    <option value="Service#2">Up Do</option>
+                                    <option value="Service#3">Style</option>
+                                    <option value="Service#4">Color</option>
+                                </select>
+                            </div>
+                        </div>
+                        <!-- Button -->
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <button id="singlebutton" name="singlebutton" class="btn btn-default">Make An Appointment</button>
+                            </div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
   <div class="jumbotron jumbotron-fluid">
     <div class="container">
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark static-top">
-        <div class="container">
-          <a class="navbar-brand" href="#">
-            <img
-              src="https://scontent.fmkc1-1.fna.fbcdn.net/v/t1.18169-9/23722426_1529664690414951_8837518399777698387_n.jpg?_nc_cat=106&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=MejGT9uppE8AX88_GkY&_nc_ht=scontent.fmkc1-1.fna&oh=bef3d0e9877f4e4024d95f825e2d374f&oe=61BBCAAF"
-              alt="..." height="36">
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mcha-auto">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="appointments.html">Appointments</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="about.html">About</a>
-              </li>
-
-            </ul>
-          </div>
-        </div>
-      </nav>
+      
       <h1 class="display-4">Salon Name</h1>
       <p class="tagLine">Smart and clever tag line goes here. </p>
-      <div class="appointment">
+      <div class="appointment" data-toggle="modal" data-target="#app">
         <button class="btn btn-dark btn-md" type="submit">Make An Appointment</button>
       </div>
+      
     </div>
 
   </div>
