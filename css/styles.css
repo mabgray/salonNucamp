@@ -1,11 +1,12 @@
 body {
-  background-color: pink;
+  background-color:#DDD6D8;
   font-family: 'Stylish', sans-serif;
 
 }
 
 .jumbotron {
-  color: hotpink;
+
+  color:;
   background-image: url("https://p0.pxfuel.com/preview/902/505/225/scissors-buy-scissors-buy-hairdressing-scissors.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -16,7 +17,9 @@ body {
 
 
 
-
+a {
+  color:#4974a5;
+}
 
 
 .display-4 {
@@ -30,4 +33,15 @@ body {
 }
 .tagLine {
   text-align: center;
+  color:#DDD6D8;
+
 }
+
+h1 {
+  color: #FEFEFF
+}
+
+.navbar {
+  background-color:90777f;
+}
+ 
