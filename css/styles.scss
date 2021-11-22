@@ -56,7 +56,11 @@ body {
     background-color:$color-bgJumbotron;
   }
   .maxImage {
-    max-width: 200px;
+    max-width: 130px;
+  }
+  .maxCard {
+      max-width: 330px;
+
   }
   .map-responsive{
     overflow:hidden;
