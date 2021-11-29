@@ -75,3 +75,8 @@ body {
     width:100%;
     position:absolute;
 }
+.site-footer {
+  background-image: linear-gradient($color-bgJumbotron,$color-dkWhite);
+  padding: 20px 0;
+  margin-top:-32px;
+ }
